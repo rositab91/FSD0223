@@ -1,15 +1,146 @@
-/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto&display=swap");
+html,
+body {
+  background-image: url(/assets/img/sfondo.png);
+  background-position-x: -3em;
+  text-align: center;
+  width: 97%;
+  margin: 0 auto;
+  padding: .4em 0;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background: rgb(96, 163, 195);
+  background: linear-gradient(
+    180deg,
+    rgba(96, 163, 195, 1) 0%,
+    rgba(21, 63, 83, 1) 100%
+  );
+  -webkit-box-shadow: 3px 5px 10px 1px rgba(94, 94, 94, 0.56);
+  box-shadow: 3px 5px 10px 1px rgba(94, 94, 94, 0.5);
+}
+header,
+nav {
+  font-weight: bold;
+  padding: 1em;
+  color: white;
+  list-style-type: none;
+}
+nav li,
+nav a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  padding-right: 1em;
+}
+nav ul {
+  display: inline-block;
+  text-align: center;
+}
+.container {
+  padding: 1em 1em;
+  margin-top: 0.5em;
+  background-color: white;
+  text-align: left;
+  font-weight: 500;
+  -webkit-box-shadow: 3px 5px 10px 1px rgba(94, 94, 94, 0.56);
+  box-shadow: 3px 5px 10px 1px rgba(94, 94, 94, 0.5);
+}
+#grigio {
+  color: gray;
+}
+h1 {
+  font-size: 2em;
+  font-weight: 550;
+}
+.fucsia {
+  color: purple;
+  font-weight: bold;
+}
+span > h2 {
+  font-weight: 550;
+}
+.tag {
+  background-color: rgb(247, 237, 237);
+  border: 1px solid gray;
+  border-radius: 10%;
+}
+caption {
+  font-weight: 600;
+  font-style: italic;
+}
+tbody > tr:nth-child(odd) {
+  background-color: white;
+}
+tr:nth-child(even) {
+  background-color: rgb(235, 225, 225);
+}
+thead {
+  background-color: rgb(57, 119, 211);
+  font-weight: 100;
+  padding: 0.5em;
+}
 
-/* HEADER */
+th {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding: 1em;
+  border: 1px solid rgb(85, 145, 236);
+}
+table {
+  border-collapse: collapse;
+  padding: 1em;
+  border-bottom: 2px solid rgb(57, 119, 211);
+}
+td {
+  padding: 1em;
+  text-align: center;
+}
+.aqua {
+  color: rgb(5, 141, 141);
+  font-weight: bold;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+  border-radius: 25px;
+}
 
-/* MAIN */
-
-/* ELEMENTI NEL MAIN - ARTICLE */
-
-/* TABELLE */
-
-/* FORM */
-
-/* ELEMENTI NELL' ASIDE */
-
-/* FOOTER */
+.sottotitoli {
+  background-color: lightgray;
+  text-align: left;
+  padding: 0.4em 1em;
+  margin-top: 1.5em;
+}
+.novita {
+  text-align: center;
+  font-weight: 600;
+}
+.data {
+  text-align: right;
+}
+button {
+  background-color: rgb(57, 119, 211);
+  color: white;
+  border: none;
+  padding: 0.3em;
+}
+input {
+  border: none;
+  border-bottom: 1px dashed gray;
+  padding: 0.3em;
+}
+footer {
+  -webkit-box-shadow: 3px 5px 10px 1px rgba(94, 94, 94, 0.56);
+  box-shadow: 3px 5px 10px 1px rgba(94, 94, 94, 0.5);
+  margin-top: 1em;
+  color: white;
+  background: rgb(67, 111, 133);
+  background: linear-gradient(
+    211deg,
+    rgba(67, 111, 133, 1) 0%,
+    rgba(29, 69, 85, 1) 100%
+  );
+  padding: 1em;
+}
