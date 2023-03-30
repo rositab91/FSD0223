@@ -8,17 +8,18 @@ body {
     background: linear-gradient(to right, #85057F 0%, #C04379 50%, #F67C72 100%);
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    text-align: center;
 }
 
 main,
-footer {
-    margin-left: 20em;
-    margin-right: 20em;
+footer, header {
+    text-align: left;
 }
 
 #art {
     text-align: center;
 }
+
 header {
     text-align: center;
 }
@@ -40,6 +41,11 @@ h1 {
     text-align: center;
 }
 
-.img {
-    text-align: center;
+#feat {
+    color: #B5460F;
+}
+
+#ft {
+    border-left: solid 1px;
+    border-color: #FFD977;
 }
