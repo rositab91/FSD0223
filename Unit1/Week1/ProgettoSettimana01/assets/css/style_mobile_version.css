@@ -1,0 +1,136 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap');
+
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #393d41;
+    text-align: center;
+    line-height: 1.65;
+}
+
+section h1{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+#logo {
+    width: 45%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#banner {
+    padding: 2em 1.5em 3em;
+    background-position: top;
+    background-size: cover;
+    background-image: url(/assets/img/banner.jpg);
+}
+
+#button a {
+    background-color: #f04c2f;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 5px;
+}
+
+article h2{
+    color: white;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+article h4{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+#content {
+    padding: 1.5em;
+    margin-bottom: 0.8em;
+    padding-bottom: 0.5em;
+}
+
+#notebook {
+    border-radius: 50%;
+    width: 85%;
+}
+
+#cit {
+    background-color: #e22d0e;
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-left: 0.1em;
+    font-size: 0.8em;
+}
+
+#citaz {
+    font-size: 1.2em;
+}
+
+#ceo {
+    font-size: 0.8em;
+}
+
+#articles {
+    margin-bottom: 3em;
+    padding-top: 2.5em;
+}
+
+#articles article {
+    border: 1px solid #dee1e3;
+    margin: 18px;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+
+.pic {
+    width: 100%;
+}
+
+footer {
+    padding-top: 0.5em;
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+footer h2{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5;
+    }
+
+footer a {
+    font-style: normal;
+    color: #c8e7f0;
+}
+
+ul {
+    font-style: normal;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+hr {
+    width: 28%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
