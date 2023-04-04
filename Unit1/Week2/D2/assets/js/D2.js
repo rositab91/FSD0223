@@ -66,7 +66,7 @@ console.log(name);
 /* const name = 'Rosita'; 
 console.log(name);
 
-const name = 'Bongiovanni';
+name = 'Bongiovanni';
 console.log(name);
 */
 
