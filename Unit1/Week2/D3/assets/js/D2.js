@@ -60,7 +60,7 @@ console.log(x);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-var name = 'Bongiovanni';
+name = 'Bongiovanni';
 console.log(name);
 
 /* const name = 'Rosita'; 
