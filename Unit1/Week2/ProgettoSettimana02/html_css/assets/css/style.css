@@ -1,0 +1,122 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #E9EDEE;
+}
+
+#logo {
+    background-color: #222f3f;
+    text-align: left;
+}
+
+#logo img {
+    width: 7%;
+    padding: 0.3em 1em 0.3em 1.5em;
+}
+
+nav {
+    background-color: #364759;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 1.6em;
+    margin: 0em 0em;
+    margin-bottom: 2em;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0.8em;
+}
+
+#parag {
+    background-color: #F56600;
+    margin: 2em;
+}
+
+h5 {
+    color: #FFF1CC;
+    padding: 0.5em;
+    font-weight: normal
+}
+
+#banner {
+    background-image: url(/assets/img/bg-image.png);
+    background-size: cover;
+    padding: 1em;
+    margin: 2em;
+}
+
+h1,
+h4 {
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h3 {
+    text-align: left;
+    margin: 2em;
+    padding-top: 1em;
+}
+
+a {
+    color: #1D585E;
+    text-decoration: none;
+}
+
+#border {
+    background-color: white;
+    margin: 2em;
+}
+
+.pic img {
+    border-radius: 15%;
+    width: 304px;
+    height: 379px;
+    padding-left: 1em;
+    object-fit: cover;
+    box-shadow: 9px 7px 15px 0px rgba(255, 255, 255, 0.973);
+    text-align: center;
+}
+
+#border_ {
+    margin: 2em;
+}
+
+.pic_ img {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+#footer_ {
+    background-color: #364759;
+    color: white;
+    padding: 1em;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+#amazon_logo {
+    background-color: #222f3f;
+}
+
+#amazon_logo img {
+    width: 10%;
+    padding: 2.5em;
+}
