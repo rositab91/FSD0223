@@ -1,0 +1,9 @@
+"https://m.media-amazon.com/images/I/81yJf4K+L1L._AC_SY450_.jpg",
+"https://m.media-amazon.com/images/I/61MRTh9xotL._AC_SX679_.jpg",
+"https://www.tradeinn.com/f/13805/138054505/samsung-smartphone-galaxy-s21-5g-8gb-128gb-6.2.jpg",
+"https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1661333885.70133010!500x500.png",
+"https://tomatosmartphone.it/wp-content/uploads/2022/06/EU-IN_Green.png"
+
+https://data.wikomobile.com/documents/images/IT/dbd2f986d94529fc20c0864e2c5c978c.jpg
+
+rgb(
