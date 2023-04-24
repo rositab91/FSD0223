@@ -321,56 +321,88 @@ footer a {
 /* Screen 1200px */
 @media screen and (min-width: 1200px) {
     header {
-        padding: 1em;
-        text-align: unset;
+        text-align: left;
+        padding: 1rem 1rem 1rem 4rem;
+        width: 100%;
     }
 
-    header div,
-    header div img,
-    header div p,
-    nav {
-        display: inline-block;
-        margin: 0;
-        vertical-align: middle;
-    }
-
-    header div,
-    nav {
+    header div {
         width: 49%;
+        display: inline-block;
     }
 
-    nav {
+    header nav {
+        width: 49%;
+        display: inline-block;
         text-align: right;
     }
 
-    h1 {
-        width: unset;
-        font-size: 3.5em;
-        margin-bottom: 0.2em;
+    nav a:hover {
+        color: red;
+    }
+    
+    header div img {
+        width: 34%;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+    }
+
+    header div p {
+        margin: 0em 1em;
+        display: inline-block;
+        vertical-align: middle;
     }
 
     table {
-        width: 60%;
+        width: 75rem;
+        font-size: 1.5rem;
+        margin-bottom: 6.5rem;
     }
 
-    iframe,
+    table th {
+        font-size: 1.6rem;
+    }
+
+    iframe {
+        display: inline-block;
+        width: 29em;
+        height: 14em;
+        vertical-align: middle;
+        margin-right: 0.25rem;
+    }
+
     section {
         display: inline-block;
-        width: 49%;
-        height: 200px;
-        margin: 0 0 2em 0;
-        border-radius: 20px;
-        vertical-align: top;
+        width: 29em;
+        height: 14em;
+        border-radius: 1em;
+        vertical-align: middle;
+    }
+
+    input {
+        width: 37rem;
+        height: 4.5rem;
+    }
+
+    button {
+        height: 4.5rem;
+        width: 8em;
     }
 
     aside div {
         display: inline-block;
         width: 33%;
-        margin: 0;
+        padding-left: 0.1rem;
     }
 
-    footer address {
-        width: 50%;
-        margin: auto;
+    aside a {
+        padding-left: 1.5rem;
+        font-size: 1.6rem;
+    }
+
+    aside p {
+        padding-left: 1.5rem;
+        font-size: 2rem;
     }
 }
