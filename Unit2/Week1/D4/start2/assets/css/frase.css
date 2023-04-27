@@ -30,8 +30,9 @@ main {
 }
 
 i {
+    position: absolute;
     left: 3px;
-    color: rgb(63, 136, 158);
+    color: rgb(158, 63, 158);
     width: max-content;
     animation: appear 6s ease-in-out infinite;
     opacity: 0;
@@ -76,3 +77,4 @@ i {
 .parole i:nth-child(3) {
     animation-delay: 4s;
 }
+
