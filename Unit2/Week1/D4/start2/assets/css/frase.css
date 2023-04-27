@@ -29,55 +29,16 @@ main {
     width: 40%;
 }
 
-/*
-.parole i {
-    left: 3px;
-    color: rgb(63, 136, 158);
-    width: max-content;
-    animation: rotazione 6s ease-in-out infinite;
-    opacity: 0;
-    width: 300px;
-}
-
-@keyframes rotazione {
-    0% {
-        opacity: 0;
-        transform: translateY(-100px);
-    }
-
-    25% {
-        opacity: 0;
-        transform: translateY(0px);
-    }
-
-    40% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-
-    65% {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-
-    100% {
-        opacity: 0;
-        transform: translateY(0px);
-    }
-}
-
-*/
-
 i {
     left: 3px;
     color: rgb(63, 136, 158);
     width: max-content;
-    animation: rotazione 6s ease-in-out infinite;
+    animation: appear 6s ease-in-out infinite;
     opacity: 0;
     width: 300px;
 }
 
-@keyframes rotazione {
+@keyframes appear {
     0% {
         opacity: 0;
         transform: translateY(-100px);
@@ -104,12 +65,14 @@ i {
     }
 }
 
-.parole i:nth-child(1){
+.parole i:nth-child(1) {
     animation-delay: 0s;
 }
-.parole i:nth-child(2){
+
+.parole i:nth-child(2) {
     animation-delay: 2s;
 }
-.parole i:nth-child(3){
+
+.parole i:nth-child(3) {
     animation-delay: 4s;
 }
