@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         scroll >= scrollChange ? nav.classList.add("white") : nav.classList.remove("white")
     })
     })
+    
 document.addEventListener('DOMContentLoaded', () => {
     let scroll = window.scrollY
 
