@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+
+body {
+    font-family: 'Spectral', sans-serif;
+}
 
 /* NAV */
 
@@ -103,7 +107,7 @@ button {
 .text h3 {
     line-height: 24px;
     color: rgba(41, 41, 41, 1);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: block;
     font-size: 1.17em;
     margin-block-start: 1em;
@@ -124,6 +128,7 @@ button {
 }
 
 /* SECTION */
+
 aside {
     height: 100%;
     display: flex;
@@ -233,7 +238,7 @@ aside {
 
 article {
     font-family: 'Open Sans', sans-serif;
-    border-top: 1px solid #dedede;
+    border-top: 1px solid #eeecec;
 }
 
 .article {
