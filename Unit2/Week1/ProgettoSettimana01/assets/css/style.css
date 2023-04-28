@@ -1,0 +1,391 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* NAV */
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #ffc017;
+    height: 75px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.white{
+    transition: 1s;
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.inline{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.nav ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.logo{
+    margin-right: 615px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    cursor: pointer;
+}
+button, ul li{
+    margin-right: 25px;
+}
+
+button{
+    border-color: rgba(25, 25, 25, 1);
+    border-radius: 99em;
+    padding: 7px 16px 9px;
+    background-color: rgba(25, 25, 25, 1);
+    color: white;
+    font-size: 14px;
+    cursor: pointer
+}
+
+.green{
+    transition: 1s;
+    background-color: #538724;
+    border: 2px solid #538724;
+}
+/* MAIN */
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffc017;
+    height: 455px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.svg{
+    position: absolute;
+    right: -500px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 93px;
+    padding-bottom: 92px;
+    width: 100%;
+    margin: 0 150px;
+}
+
+.text h2{
+    font-size: 106px;
+}
+
+.text h3{
+    line-height: 24px;
+    color: rgba(41, 41, 41, 1);
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    width: 27%;
+}
+
+.main button{
+    font-size: 20px;
+    width: 213px;
+    padding: 7px 20px 9px;
+    line-height: 24px;
+    border-width: 1px;
+    text-align: center;
+}
+
+/* SECTION */
+aside{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+
+.section{
+    display: flex;
+    height: 348.2px;
+    width: 100%;
+}
+
+.imgTrending{
+    height: 29px;
+    width: 28px;
+}
+
+.trending{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.one{
+    margin-bottom: 16px;
+}
+
+.utenti{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem
+}
+
+.trending .one{
+    height: 29px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.two{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#paragrafo{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#paragrafo h3{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgba(41, 41, 41, 1);
+    margin-bottom: 8px;
+    min-height: 32px;
+}
+
+.two span{
+    color: rgba(230, 230, 230, 1);
+    font-size: 30px;
+    margin-right: 16px;
+}
+
+.paragrafo{
+    display: flex;
+    text-transform: capitalize;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+}
+.paragrafo p{
+    margin-left: 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.icon{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 8px;
+}
+
+.paragrafo span, #paragrafo h3 span{
+    font-size: small;
+    text-transform: none;
+    margin: 0;
+    font-weight: normal;
+    color: rgba(41, 41, 41, 1);
+}
+
+#paragrafo h3 span{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* ARTICLE */
+
+article{
+    font-family: 'Open Sans', sans-serif;
+    border-top: 1px solid #dedede;
+}
+
+.article{
+    position: relative;
+    margin-top: 56px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.post{
+    display: flex;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+.art{
+    position: relative;
+}
+
+.imgPost{
+    margin-left: 30px;
+    width: 200px;
+    height: 134px;
+    cursor: pointer;
+}
+
+
+.post h3{
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.post h2{
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.btn{
+    border-radius: 100px;
+    padding: 2px 8px;
+    font-size: 13px;
+    background-color: rgba(242, 242, 242, 1);
+    color: rgba(117, 117, 117, 1);
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.btn:hover{
+    background-color: rgba(235, 235, 235, 1);
+}
+
+.altro{
+    margin-left: 100px
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cont{
+    position: relative;
+}
+.bookmark{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+}
+.data{
+    display: flex;
+    color: rgba(117, 117, 117, 1);
+    font-size: 13px;
+    line-height: 20px;
+    gap: 0.2rem;
+}
+
+.punto{
+    line-height: 1
+}
+
+.art h2{
+    margin-bottom: 2rem
+}
+
+.art span{
+    text-transform: none;
+}
+
+.flexButton a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgba(117, 117, 117, 1);
+    line-height: 20px;
+    font-size: 14px;
+    margin-right: 26px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.sep{
+    border-top: 1px solid rgba(230, 230, 230, 1);
+    margin: 24px 0;
+}
+.ara{
+    margin-top: 24px;
+}
+
+.altro{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.flexButton{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.flexButton button{
+    text-transform: capitalize;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(117, 117, 117, 1);
+    border: 1px solid rgba(230, 230, 230, 1);
+    background-color: #fff;
+    padding: 6px 16px;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+.altro h2{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(41, 41, 41, 1);
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sticky{
+    position: sticky;
+    top: 107px;
+}
+
+@media screen () {
+    /*  */
+}
