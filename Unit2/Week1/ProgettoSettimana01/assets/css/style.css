@@ -186,7 +186,7 @@ aside {
 }
 
 #paragrafo h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     font-weight: bold;
     color: rgba(41, 41, 41, 1);
@@ -237,7 +237,7 @@ aside {
 /* ARTICLE */
 
 article {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-top: 1px solid #eeecec;
 }
 
@@ -292,10 +292,6 @@ article {
 
 .btn:hover {
     background-color: rgba(235, 235, 235, 1);
-}
-
-.altro {
-    margin-left: 100px;
 }
 
 .container {
@@ -361,6 +357,7 @@ article {
 }
 
 .altro {
+    margin-left: 100px;
     position: absolute;
     top: 0;
     right: 0;
@@ -393,7 +390,8 @@ article {
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .sticky {
