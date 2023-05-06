@@ -1,0 +1,51 @@
+.bg-custom {
+  background-color: #7550fe;
+}
+
+body {
+  background-color: #f5f4f8;
+}
+
+nav .btn {
+  background-color: #e3e0e974;
+  border: none;
+}
+
+.main button#btn {
+  background-color: #1acb98;
+  border: none;
+  padding: 1rem 2rem;
+}
+
+.main button {
+  padding: 1.3rem;
+  padding: 1rem 2rem;
+}
+
+.container .fs-5 {
+  color: #bca8ff;
+}
+
+#purpleBadge {
+  background-color: #7550fe;
+}
+
+#greenBadge {
+  background-color: #1acb98;
+}
+
+@import "./btn-secondary";
+
+.ghostCards {
+  width: 100%;
+}
+
+@media screen and (max-width: 468px) {
+  .ghostCards {
+    width: 100%;
+  }
+
+  .ghostCards:nth-last-child(-n + 2) {
+    display: none;
+  }
+}
