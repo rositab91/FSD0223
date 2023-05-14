@@ -1,0 +1,12 @@
+body {
+    background-color: #F2DAB5
+}
+
+#navbarYepoda {
+    background: linear-gradient(90deg, rgb(10, 172, 221) 0%, rgb(184, 22, 165) 50%, rgba(252,176,69,1) 100%);
+}
+
+#link li a {
+    color: white;
+    font-size: 1.2rem;
+}
